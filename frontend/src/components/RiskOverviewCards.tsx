@@ -110,7 +110,7 @@ export const RiskOverviewCards: React.FC<RiskOverviewCardsProps> = ({
       setRiverError(false);
 
       const response = await fetch(
-        'http://127.0.0.1:8000/api/river-risk',
+        'https://ecoshield-backend-gcuw.onrender.com/api/river-risk',
         {
           method: 'GET',
           headers: {
