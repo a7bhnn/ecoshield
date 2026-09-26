@@ -32,8 +32,10 @@ app = FastAPI(
 # Enable CORS for frontend Vite dev server and production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=[
+        "https://ecoshield-five.vercel.app",
+    ],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
