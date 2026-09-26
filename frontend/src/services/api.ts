@@ -7,7 +7,7 @@ import {
   SimulationResult
 } from '../types';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = 'https://ecoshield-backend-gcuw.onrender.com';
 
 export async function fetchHealth(): Promise<{ status: string; model_loaded: boolean }> {
   const res = await fetch(`${API_BASE_URL}/health`);
