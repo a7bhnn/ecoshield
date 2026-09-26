@@ -1,0 +1,59 @@
+{
+  "model_type": "XGBoost Classifier (XGBClassifier)",
+  "framework": "xgboost 2.x / scikit-learn",
+  "dataset": "Kerala CWC & IMD Rainfall Telemetry (14 Districts)",
+  "features": [
+    "rain_current",
+    "rain_prev",
+    "rain_3h",
+    "rain_6h",
+    "rain_12h",
+    "rain_24h",
+    "rain_trend"
+  ],
+  "feature_importances": [
+    [
+      "rain_24h",
+      0.6589815020561218
+    ],
+    [
+      "rain_12h",
+      0.2928916811943054
+    ],
+    [
+      "rain_6h",
+      0.03191852942109108
+    ],
+    [
+      "rain_prev",
+      0.005016635172069073
+    ],
+    [
+      "rain_3h",
+      0.003794910851866007
+    ],
+    [
+      "rain_current",
+      0.0037605627439916134
+    ],
+    [
+      "rain_trend",
+      0.0036361764650791883
+    ]
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "proxy_thresholds": {
+    "rain_24h_critical_mm": 120.0,
+    "rain_6h_flash_mm": 60.0,
+    "rain_intensity_spike_mm": 25.0,
+    "rain_3h_support_mm": 40.0
+  },
+  "disclaimer": "Prototype rainfall-based flood-risk model. Prediction is a risk estimate, not an official flood warning.",
+  "verified": true
+}

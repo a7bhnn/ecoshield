@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hist-kl-001",
+    "event_name": "2018 Great Kerala Floods",
+    "hazard": "Flood",
+    "location": "Statewide (Ernakulam, Alappuzha, Pathanamthitta, Thrissur, Idukki)",
+    "district": "Ernakulam",
+    "coordinates": {"lat": 9.9816, "lon": 76.2999},
+    "date": "August 8 - 19, 2018",
+    "severity": "CRITICAL",
+    "data_class": "HISTORICAL / DEMONSTRATION DATA",
+    "environmental_conditions": {
+      "peak_24h_rainfall_mm": 310.0,
+      "cumulative_10d_rainfall_mm": 814.0,
+      "dam_storage_pct": 98.5,
+      "soil_saturation_pct": 97.0
+    },
+    "impact_summary": "Unprecedented southwest monsoon rainfall led to widespread inundation of low-lying districts, 35 major reservoir spillway gates opened, affecting over 5 million citizens.",
+    "key_takeaways": "Precipitation accumulation over 72 hours alongside saturated catchments is the critical leading indicator for catastrophic lowland flooding.",
+    "source": "Kerala State Disaster Management Authority (KSDMA) / CWC Historical Archive"
+  },
+  {
+    "id": "hist-kl-002",
+    "event_name": "2024 Wayanad Chooralmala Debris Flow & Landslide",
+    "hazard": "Landslide",
+    "location": "Chooralmala & Mundakkai, Meppadi, Wayanad",
+    "district": "Wayanad",
+    "coordinates": {"lat": 11.5367, "lon": 76.1554},
+    "date": "July 30, 2024",
+    "severity": "CRITICAL",
+    "data_class": "HISTORICAL / DEMONSTRATION DATA",
+    "environmental_conditions": {
+      "peak_24h_rainfall_mm": 286.0,
+      "antecedent_48h_rainfall_mm": 572.0,
+      "slope_gradient_degrees": 38.0,
+      "soil_saturation_pct": 99.0
+    },
+    "impact_summary": "Severe localized cloudburst over fragile tea plantation slopes triggered catastrophic debris flows down the Iruvaazhinji river basin, flattening settlements.",
+    "key_takeaways": "Steep slope geometry (>35°) coupled with antecedent 48-hour rainfall exceeding 200mm creates an immediate tipping point for pore-water pressure failure.",
+    "source": "Geological Survey of India (GSI) Post-Disaster Report / IMD"
+  },
+  {
+    "id": "hist-kl-003",
+    "event_name": "2019 Kavalappara Multi-Slope Failure",
+    "hazard": "Landslide",
+    "location": "Bhoodanam, Nilambur, Malappuram",
+    "district": "Malappuram",
+    "coordinates": {"lat": 11.3524, "lon": 76.2842},
+    "date": "August 8, 2019",
+    "severity": "CRITICAL",
+    "data_class": "HISTORICAL / DEMONSTRATION DATA",
+    "environmental_conditions": {
+      "peak_24h_rainfall_mm": 215.0,
+      "antecedent_72h_rainfall_mm": 395.0,
+      "slope_gradient_degrees": 32.0,
+      "soil_saturation_pct": 95.0
+    },
+    "impact_summary": "Intense torrential monsoon precipitation led to massive slope destabilization of Muthappan hill, burying several homes under deep lateritic mud.",
+    "key_takeaways": "Laterite soil profiles saturated by continuous 3-day precipitation become highly vulnerable to sudden shearing.",
+    "source": "National Disaster Management Authority (NDMA) Case Study"
+  },
+  {
+    "id": "hist-kl-004",
+    "event_name": "2020 Pettimudi Tea Estate Landslide",
+    "hazard": "Landslide",
+    "location": "Rajamala, Munnar, Idukki",
+    "district": "Idukki",
+    "coordinates": {"lat": 10.1583, "lon": 77.0147},
+    "date": "August 6, 2020",
+    "severity": "CRITICAL",
+    "data_class": "HISTORICAL / DEMONSTRATION DATA",
+    "environmental_conditions": {
+      "peak_24h_rainfall_mm": 220.0,
+      "cumulative_5d_rainfall_mm": 480.0,
+      "slope_gradient_degrees": 44.0,
+      "soil_saturation_pct": 96.0
+    },
+    "impact_summary": "Deep-seated rock and soil failure near Eravikulam National Park border crushed plantation quarters following persistent heavy monsoon downpours.",
+    "key_takeaways": "Isolated high-altitude Western Ghats valleys require dedicated automated rainfall telemetry because radar coverage can suffer from mountain beam blockage.",
+    "source": "IMD Agrometeorological Field Station Records"
+  },
+  {
+    "id": "hist-kl-005",
+    "event_name": "2019 Marayoor Sandalwood Reserve Wildfire",
+    "hazard": "Wildfire",
+    "location": "Marayoor Forest Range, Idukki",
+    "district": "Idukki",
+    "coordinates": {"lat": 10.2742, "lon": 77.1582},
+    "date": "February 24, 2019",
+    "severity": "HIGH",
+    "data_class": "HISTORICAL / DEMONSTRATION DATA",
+    "environmental_conditions": {
+      "peak_temperature_c": 36.5,
+      "relative_humidity_pct": 22.0,
+      "wind_speed_kmh": 38.0,
+      "consecutive_dry_days": 42
+    },
+    "impact_summary": "Severe pre-monsoon dry spell coupled with desiccating katabatic winds fanned rapid surface brush fires across hundreds of acres of natural sandalwood forest.",
+    "key_takeaways": "When relative humidity drops below 25% with sustained winds exceeding 30 km/h, fire propagation velocity multiplies exponentially.",
+    "source": "Kerala Forest and Wildlife Department Post-Fire Audit"
+  },
+  {
+    "id": "hist-kl-006",
+    "event_name": "2021 Kuttanad Waterlogging Emergency",
+    "hazard": "Flood",
+    "location": "Upper Kuttanad, Alappuzha & Kottayam",
+    "district": "Alappuzha",
+    "coordinates": {"lat": 9.4981, "lon": 76.4388},
+    "date": "October 16 - 22, 2021",
+    "severity": "HIGH",
+    "data_class": "HISTORICAL / DEMONSTRATION DATA",
+    "environmental_conditions": {
+      "peak_24h_rainfall_mm": 180.0,
+      "tide_height_m": 1.4,
+      "discharge_rate_m3s": 1400.0,
+      "soil_saturation_pct": 98.0
+    },
+    "impact_summary": "Inflow from eastern ghat rivers (Pamba, Manimala, Meenachil) coincided with high Arabian Sea tides, blocking drainage out to sea through the Thottappally spillway.",
+    "key_takeaways": "Coastal lowlands below sea level have severe drainage discharge bottlenecks during tidal peaks even if rainfall has subsided.",
+    "source": "Irrigation Department Kerala Telemetry Network"
+  }
+]
